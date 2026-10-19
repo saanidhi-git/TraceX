@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GraphSentinel Analysis Report",
+  "type": "object",
+  "required": ["schema_version", "analysis_id", "dataset", "analysis_timestamp", "summary", "patterns", "accounts", "rings", "model", "detector_config", "warnings"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "analysis_id": {"type": "string"},
+    "dataset": {"type": "object"},
+    "analysis_timestamp": {"type": "string", "format": "date-time"},
+    "summary": {"type": "object"},
+    "patterns": {"type": "array"},
+    "accounts": {"type": "array"},
+    "rings": {"type": "array"},
+    "model": {"type": "object"},
+    "detector_config": {"type": "object"},
+    "warnings": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}
