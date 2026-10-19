@@ -1,0 +1,9 @@
+.venv/
+venv/
+node_modules/
+frontend/dist/
+backend/data/*.sqlite3
+__pycache__/
+.pytest_cache/
+.env
+*.py[cod]
