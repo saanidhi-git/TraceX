@@ -1,6 +1,6 @@
-# GraphSentinel
+# TraceX
 
-GraphSentinel is an end-to-end, graph-based transaction-risk demonstration. It ingests CSV/JSON transactions, preserves multi-edges in a directed NetworkX graph, runs bounded explainable structural detectors, ranks accounts with a transparent heuristic plus a separately reported unsupervised IsolationForest anomaly rank, groups overlapping flagged structures, and exports a schema-validated JSON report.
+TraceX is an end-to-end, graph-based transaction-risk demonstration. It ingests CSV/JSON transactions, preserves multi-edges in a directed NetworkX graph, runs bounded explainable structural detectors, ranks accounts with a transparent heuristic plus a separately reported unsupervised IsolationForest anomaly rank, groups overlapping flagged structures, and exports a schema-validated JSON report.
 
 > **Investigative lead only.** A structural flag or heuristic score is not a calibrated probability, a finding of fact, or proof that an account or its owner committed a crime. The bundled dataset is synthetic.
 
