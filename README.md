@@ -11,6 +11,7 @@ Requirements: Python 3.11+ and Node.js 20.19+ (or 22.12+).
 ```powershell
 Copy-Item .env.example .env
 cd backend --
+--
 py -3.12 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
