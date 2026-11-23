@@ -7,6 +7,7 @@ TraceX is an end-to-end, graph-based transaction-risk demonstration. It ingests 
 ## Run locally (Windows PowerShell)
 
 Requirements: Python 3.11+ and Node.js 20.19+ (or 22.12+).
+--
 
 ```powershell
 Copy-Item .env.example .env
